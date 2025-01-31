@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todoApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngularJS Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="todoController">
+
+    <div class="container">
+        <h2>Todo List</h2>
+
+        <div>
+            <label for="newTask">Add New Task:</label>
+            <input type="text" id="newTask" ng-model="newTask" placeholder="Enter a new task">
+            <button ng-click="addTask()">Add Task</button>
+        </div>
+
+        <ul>
+            <li ng-repeat="task in tasks">
+                <span>{{ task.text }}</span>
+                <button ng-click="editTask($index)">Edit</button>
+                <button ng-click="deleteTask($index)">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
