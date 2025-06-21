@@ -20,7 +20,7 @@ A simple and elegant To-Do List application built using **HTML**, **CSS**, and *
 
 ## 📸 Preview
 
-![To-Do List Screenshot](screenshot.png) <!-- Replace with your image file or GitHub-hosted image -->
+![To-Do List Screenshot](<Screenshot (113)-1.png>) <!-- Replace with your image file or GitHub-hosted image -->
 
 ---
 
