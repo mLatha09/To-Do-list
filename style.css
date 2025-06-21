@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg4.jpg");
+    background-image: url("images_bg/bg4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Arial', sans-serif;
@@ -21,7 +21,7 @@ body {
     border: linear-gradient(rgb(115, 75, 75),pink,white);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     width: 400px; /* Adjust the width as needed */
 }
 
