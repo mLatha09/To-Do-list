@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://t3.ftcdn.net/jpg/05/13/59/72/360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg");
+    background-image: url("bg4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Arial', sans-serif;
@@ -10,7 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    
 }
+
 
 .container {
     background: linear-gradient(rgb(136, 105, 105),rgb(216, 173, 180),white,rgb(236, 154, 168),rgb(128, 89, 89));
